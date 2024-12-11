@@ -1,0 +1,395 @@
+{
+    "Aceite de maravilla": {
+      "calorias": 9.00,
+      "proteina": 0.00,
+      "carbohidratos": 0.00,
+      "grasas": 1.00,
+      "fibra": 0.00
+    },
+    "Aceite de oliva": {
+      "calorias": 8.84,
+      "proteina": 0.00,
+      "carbohidratos": 0.00,
+      "grasas": 0.99,
+      "fibra": 0.00
+    },
+    "Aceite de sésamo": {
+      "calorias": 8.84,
+      "proteina": 0.00,
+      "carbohidratos": 0.00,
+      "grasas": 0.99,
+      "fibra": 0.00
+    },
+    "Ajo": {
+      "calorias": 1.49,
+      "proteina": 0.06,
+      "carbohidratos": 0.33,
+      "grasas": 0.01,
+      "fibra": 0.02
+    },
+    "Aji verde": {
+      "calorias": 0.40,
+      "proteina": 0.02,
+      "carbohidratos": 0.09,
+      "grasas": 0.01,
+      "fibra": 0.01
+    },
+    "Alcachofa": {
+      "calorias": 0.47,
+      "proteina": 0.03,
+      "carbohidratos": 0.11,
+      "grasas": 0.00,
+      "fibra": 0.05
+    },
+    "Almendras": {
+      "calorias": 5.75,
+      "proteina": 0.21,
+      "carbohidratos": 0.22,
+      "grasas": 0.50,
+      "fibra": 0.12
+    },
+    "Arroz": {
+      "calorias": 3.65,
+      "proteina": 0.07,
+      "carbohidratos": 0.78,
+      "grasas": 0.01,
+      "fibra": 0.01
+    },
+    "Arvejas": {
+      "calorias": 0.81,
+      "proteina": 0.06,
+      "carbohidratos": 0.14,
+      "grasas": 0.00,
+      "fibra": 0.05
+    },
+    "Avena": {
+      "calorias": 3.80,
+      "proteina": 0.13,
+      "carbohidratos": 0.68,
+      "grasas": 0.07,
+      "fibra": 0.10
+    },
+    "Berro": {
+      "calorias": 0.11,
+      "proteina": 0.026,
+      "carbohidratos": 0.01,
+      "grasas": 0.00,
+      "fibra": 0.01
+    },
+    "Betarraga": {
+      "calorias": 0.43,
+      "proteina": 0.02,
+      "carbohidratos": 0.10,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Brocoli": {
+      "calorias": 0.34,
+      "proteina": 0.03,
+      "carbohidratos": 0.07,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Brotes de brócoli": {
+      "calorias": 0.34,
+      "proteina": 0.03,
+      "carbohidratos": 0.07,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Camarones": {
+      "calorias": 0.85,
+      "proteina": 0.20,
+      "carbohidratos": 0.00,
+      "grasas": 0.01,
+      "fibra": 0.00
+    },
+    "Camote": {
+      "calorias": 0.86,
+      "proteina": 0.02,
+      "carbohidratos": 0.20,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Carne Molida grasa 7%": {
+      "calorias": 2.50,
+      "proteina": 0.22,
+      "carbohidratos": 0.00,
+      "grasas": 0.10,
+      "fibra": 0.00
+    },
+    "Cebolla": {
+      "calorias": 0.40,
+      "proteina": 0.01,
+      "carbohidratos": 0.09,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Chía": {
+      "calorias": 4.85,
+      "proteina": 0.17,
+      "carbohidratos": 0.42,
+      "grasas": 0.31,
+      "fibra": 0.34
+    },
+    "Choclo en grano congelado": {
+      "calorias": 0.86,
+      "proteina": 0.03,
+      "carbohidratos": 0.19,
+      "grasas": 0.01,
+      "fibra": 0.02
+    },
+    "Espárragos": {
+      "calorias": 0.20,
+      "proteina": 0.02,
+      "carbohidratos": 0.04,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Espinaca": {
+      "calorias": 0.23,
+      "proteina": 0.027,
+      "carbohidratos": 0.03,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Frambuesas": {
+      "calorias": 0.53,
+      "proteina": 0.01,
+      "carbohidratos": 0.12,
+      "grasas": 0.00,
+      "fibra": 0.07
+    },
+    "Garbanzos": {
+      "calorias": 1.64,
+      "proteina": 0.09,
+      "carbohidratos": 0.27,
+      "grasas": 0.03,
+      "fibra": 0.07
+    },
+    "Huevos": {
+      "calorias": 1.50,
+      "proteina": 0.13,
+      "carbohidratos": 0.01,
+      "grasas": 0.10,
+      "fibra": 0.00
+    },
+    "Láminas de Pan masa madre": {
+      "calorias": 2.50,
+      "proteina": 0.08,
+      "carbohidratos": 0.48,
+      "grasas": 0.01,
+      "fibra": 0.03
+    },
+    "Lentejas": {
+      "calorias": 1.16,
+      "proteina": 0.09,
+      "carbohidratos": 0.20,
+      "grasas": 0.00,
+      "fibra": 0.08
+    },
+    "Lentejas Rojas": {
+      "calorias": 1.20,
+      "proteina": 0.09,
+      "carbohidratos": 0.21,
+      "grasas": 0.00,
+      "fibra": 0.08
+    },
+    "Limón": {
+      "calorias": 0.29,
+      "proteina": 0.01,
+      "carbohidratos": 0.09,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Lomo liso (Carne res)": {
+      "calorias": 2.50,
+      "proteina": 0.26,
+      "carbohidratos": 0.00,
+      "grasas": 0.15,
+      "fibra": 0.00
+    },
+    "Maní": {
+      "calorias": 5.70,
+      "proteina": 0.25,
+      "carbohidratos": 0.16,
+      "grasas": 0.49,
+      "fibra": 0.09
+    },
+    "Manzanas": {
+      "calorias": 0.52,
+      "proteina": 0.00,
+      "carbohidratos": 0.14,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Nueces": {
+      "calorias": 6.54,
+      "proteina": 0.15,
+      "carbohidratos": 0.14,
+      "grasas": 0.65,
+      "fibra": 0.07
+    },
+    "Palta": {
+      "calorias": 1.60,
+      "proteina": 0.02,
+      "carbohidratos": 0.09,
+      "grasas": 0.15,
+      "fibra": 0.07
+    },
+    "Papa chilena": {
+      "calorias": 0.77,
+      "proteina": 0.02,
+      "carbohidratos": 0.17,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Pechuga de Pollo": {
+      "calorias": 1.10,
+      "proteina": 0.23,
+      "carbohidratos": 0.00,
+      "grasas": 0.01,
+      "fibra": 0.00
+    },
+    "Pera": {
+      "calorias": 0.57,
+      "proteina": 0.00,
+      "carbohidratos": 0.15,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Perejil": {
+      "calorias": 0.36,
+      "proteina": 0.03,
+      "carbohidratos": 0.06,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Pimentón rojo": {
+      "calorias": 0.31,
+      "proteina": 0.01,
+      "carbohidratos": 0.06,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Pimentón verde": {
+      "calorias": 0.20,
+      "proteina": 0.01,
+      "carbohidratos": 0.04,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Plátano": {
+      "calorias": 0.90,
+      "proteina": 0.01,
+      "carbohidratos": 0.23,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Poroto negro": {
+      "calorias": 1.32,
+      "proteina": 0.09,
+      "carbohidratos": 0.24,
+      "grasas": 0.00,
+      "fibra": 0.08
+    },
+    "Queso mantecoso": {
+      "calorias": 3.50,
+      "proteina": 0.22,
+      "carbohidratos": 0.02,
+      "grasas": 0.28,
+      "fibra": 0.00
+    },
+    "Queso rallado reggianito": {
+      "calorias": 4.30,
+      "proteina": 0.38,
+      "carbohidratos": 0.04,
+      "grasas": 0.28,
+      "fibra": 0.00
+    },
+    "Quinoa": {
+      "calorias": 3.70,
+      "proteina": 0.14,
+      "carbohidratos": 0.64,
+      "grasas": 0.06,
+      "fibra": 0.07
+    },
+    "Repollo": {
+      "calorias": 0.25,
+      "proteina": 0.01,
+      "carbohidratos": 0.06,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Rúcula": {
+      "calorias": 0.25,
+      "proteina": 0.025,
+      "carbohidratos": 0.04,
+      "grasas": 0.00,
+      "fibra": 0.02
+    },
+    "Salmón": {
+      "calorias": 2.00,
+      "proteina": 0.22,
+      "carbohidratos": 0.00,
+      "grasas": 0.10,
+      "fibra": 0.00
+    },
+    "Semillas girasol": {
+      "calorias": 5.84,
+      "proteina": 0.20,
+      "carbohidratos": 0.20,
+      "grasas": 0.51,
+      "fibra": 0.09
+    },
+    "Semillas zapallo": {
+      "calorias": 5.60,
+      "proteina": 0.30,
+      "carbohidratos": 0.10,
+      "grasas": 0.45,
+      "fibra": 0.06
+    },
+    "Tomate": {
+      "calorias": 0.18,
+      "proteina": 0.01,
+      "carbohidratos": 0.04,
+      "grasas": 0.00,
+      "fibra": 0.01
+    },
+    "Tomate Cherry": {
+      "calorias": 0.18,
+      "proteina": 0.01,
+      "carbohidratos": 0.04,
+      "grasas": 0.00,
+      "fibra": 0.01
+    },
+    "Tutro de Pollo": {
+      "calorias": 1.30,
+      "proteina": 0.20,
+      "carbohidratos": 0.00,
+      "grasas": 0.05,
+      "fibra": 0.00
+    },
+    "Yogurt Griego": {
+      "calorias": 0.59,
+      "proteina": 0.10,
+      "carbohidratos": 0.04,
+      "grasas": 0.02,
+      "fibra": 0.00
+    },
+    "Zanahoria": {
+      "calorias": 0.41,
+      "proteina": 0.01,
+      "carbohidratos": 0.10,
+      "grasas": 0.00,
+      "fibra": 0.03
+    },
+    "Zapallo camote": {
+      "calorias": 0.45,
+      "proteina": 0.01,
+      "carbohidratos": 0.10,
+      "grasas": 0.00,
+      "fibra": 0.02
+    }
+  }
+  

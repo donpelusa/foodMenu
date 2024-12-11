@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Calculadora Nutricional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora Nutricional Diaria</h1>
+
+    <h2>Desayuno (Fijo + Opcionales)</h2>
+    <p>Fijo: 6 Huevos + 240g Yogurt (No disponibles en la lista a continuación)</p>
+    <div id="desayuno-section" class="resumen">
+        <select id="desayuno-alimento">
+            <option value="">--Seleccionar--</option>
+        </select>
+        <input type="number" id="desayuno-gramos" placeholder="Gramos" min="1">
+        <button id="desayuno-agregar">Agregar</button>
+
+        <table id="desayuno-tabla">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <h2>Almuerzo</h2>
+    <div id="almuerzo-section" class="resumen">
+        <select id="almuerzo-alimento">
+            <option value="">--Seleccionar--</option>
+        </select>
+        <input type="number" id="almuerzo-gramos" placeholder="Gramos" min="1">
+        <button id="almuerzo-agregar">Agregar</button>
+
+        <table id="almuerzo-tabla">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <h2>Cena</h2>
+    <div id="cena-section" class="resumen">
+        <select id="cena-alimento">
+            <option value="">--Seleccionar--</option>
+        </select>
+        <input type="number" id="cena-gramos" placeholder="Gramos" min="1">
+        <button id="cena-agregar">Agregar</button>
+
+        <table id="cena-tabla">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <h2>Resumen Diario de Nutrientes Consumidos</h2>
+
+    <div class="resumen-container">
+        <!-- Primera columna: Texto p y ul -->
+        <div class="resumen-col">
+            <ul>
+                <li>Calorías: Total 3500 kcal. Ratio 4:3 (Álvaro:4/7, Carla:3/7)</li>
+                <li>Proteínas: Total 350 g. Ratio 22:13 (Álvaro:22/35, Carla:13/35)</li>
+                <li>Carbohidratos: Total 250 g. Ratio 3:2 (Álvaro:3/5, Carla:2/5)</li>
+                <li>Grasas: Total 85 g. Ratio 10:7 (Álvaro:10/17, Carla:7/17)</li>
+                <li>Fibra: Total 50 g. Cada uno 25 g</li>
+            </ul>
+        </div>
+
+        <!-- Segunda columna: Tabla Ideal (totales y ratio) -->
+        <div class="resumen-col">
+            <p>Resumen Diario a Consumir (Ideal)</p>
+            <table class="centrada resumen" id="tabla-ideal">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Calorías (kcal)</th>
+                        <th>Proteína (g)</th>
+                        <th>Carbohidratos (g)</th>
+                        <th>Grasas (g)</th>
+                        <th>Fibra (g)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Álvaro</td>
+                        <td><span id="alvaro-cals"></span></td>
+                        <td><span id="alvaro-prot"></span></td>
+                        <td><span id="alvaro-carb"></span></td>
+                        <td><span id="alvaro-gras"></span></td>
+                        <td><span id="alvaro-fibr"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Carla</td>
+                        <td><span id="carla-cals"></span></td>
+                        <td><span id="carla-prot"></span></td>
+                        <td><span id="carla-carb"></span></td>
+                        <td><span id="carla-gras"></span></td>
+                        <td><span id="carla-fibr"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tercera columna: Resumen Diario Real Consumido -->
+        <div class="resumen-col">
+            <p>Resumen Diario Real Consumido (Dividido según el ratio)</p>
+            <table class="centrada resumen" id="tabla-real">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Calorías (kcal)</th>
+                        <th>Proteína (g)</th>
+                        <th>Carbohidratos (g)</th>
+                        <th>Grasas (g)</th>
+                        <th>Fibra (g)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Álvaro</td>
+                        <td><span id="real-alvaro-cals">0</span></td>
+                        <td><span id="real-alvaro-prot">0</span></td>
+                        <td><span id="real-alvaro-carb">0</span></td>
+                        <td><span id="real-alvaro-gras">0</span></td>
+                        <td><span id="real-alvaro-fibr">0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Carla</td>
+                        <td><span id="real-carla-cals">0</span></td>
+                        <td><span id="real-carla-prot">0</span></td>
+                        <td><span id="real-carla-carb">0</span></td>
+                        <td><span id="real-carla-gras">0</span></td>
+                        <td><span id="real-carla-fibr">0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <h2>Exportar Día</h2>
+    <div id="exportar-dia-section" class="resumen">
+        <select id="select-day">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sábado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+        <button id="exportar-dia">Exportar Día</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
